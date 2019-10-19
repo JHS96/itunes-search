@@ -35,7 +35,9 @@ function App() {
             <Route
               exact={true}
               path={'/favourites'}
-              component={Fav}
+              render={()=>{
+                <h1>Favs should go here...</h1>
+              }}
             />
             <Route
               render={() =>
