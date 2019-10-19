@@ -1,0 +1,75 @@
+#to-search {
+  margin-top: 1.5%;
+}
+
+#fav-heading {
+  width: 50%;
+  margin-top: 1%;
+  margin-left: 23%;
+  margin-bottom: 1%;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#fav-items-list {
+  width: 70%;
+}
+
+.fav-item {
+  width: 309px;
+  height: 360px;
+  margin: auto;
+  padding: 1%;
+  float: left;
+  background-color: lightgrey;
+  color: black;
+  border: 1px solid grey;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.fav-item h3 {
+  margin-top: 1%;
+  text-align: center;
+}
+
+img {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.fav {
+  margin-top: 5%;
+}
+
+h6 {
+  display: none;
+}
+
+#remove-btn {
+  margin: 10%;
+}
+
+/* Scrollbar customization */
+/* These effects are NOT supported by Firefox */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: blue;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0, 0, 134);
+}

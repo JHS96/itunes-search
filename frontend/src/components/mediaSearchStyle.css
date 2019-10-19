@@ -1,0 +1,44 @@
+#search-heading {
+  width: 50%;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-bottom: 1%;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#search-form {
+  width: 100%;
+  margin-top: 1%;
+}
+
+form {
+  margin-left: 15%;
+}
+
+.media-select-div {
+  float: left;
+  text-align: left;
+  font-size: 18px;
+  min-width: 15%;
+  margin-left: 2.5%;
+}
+
+.media-radio-btn {
+  margin: 2%;
+}
+
+.media-radio-btn:focus {
+  transform: scale(1.5);
+}
+
+#search-btn {
+  margin-top: -0.5%;
+  margin-left: 0.5%;
+}
+
+#item-list-container {
+  width: 70%;
+  margin: auto;
+  max-height: 400px;
+}
