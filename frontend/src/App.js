@@ -32,7 +32,11 @@ function App() {
               path={'/'}
               component={Search}
             />
-
+            <Route
+              exact={true}
+              path={'/favs'}
+              component={Fav}
+            />
             <Route
               render={() =>
                 <h1>Error 404: Not Found</h1>

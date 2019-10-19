@@ -51,7 +51,7 @@ class MediaSearch extends React.Component {
   render() {
     return (
       <div id='search-form'>
-        <a href='/favourites'>To Favourites...</a>
+        <a href='/favs'>To Favourites...</a>
         <form onChange={this.selectedRadioBtn}>
           <h1 id='search-heading'>iTunes Media Search</h1>
           <div className='media-select-div'>
