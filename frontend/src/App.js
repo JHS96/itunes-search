@@ -32,13 +32,7 @@ function App() {
               path={'/'}
               component={Search}
             />
-            <Route
-              exact={true}
-              path={'/favourites'}
-              render={()=>{
-                <h1>Favs should go here...</h1>
-              }}
-            />
+
             <Route
               render={() =>
                 <h1>Error 404: Not Found</h1>
