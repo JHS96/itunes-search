@@ -70,7 +70,7 @@ const ItemList = (props) =>
         <Button
           id='add-btn'
           onClick={addToFavorites}>
-          Favorite
+          Favourite
           </Button>
         <h6>{item.trackId}</h6>
       </div>

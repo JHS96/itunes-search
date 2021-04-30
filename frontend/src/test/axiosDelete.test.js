@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-const uri = '/favourites/0'
+const uri = '/favourites/0';
 
 // test to see if axiosDelete works correctly
 test('returned data is error null', () => {
